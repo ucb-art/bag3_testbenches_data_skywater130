@@ -1,0 +1,9 @@
+impl_lib: RES_CHAR_SCH
+impl_cell: RES_SCH
+root_dir: gen_outputs/res_sch_char
+dut_class: xbase.schematic.res_char.xbase__res_char
+
+params:
+  unit_params: {w: 600, l: 800, intent: high_res}
+  nser: 1
+  npar: 1
