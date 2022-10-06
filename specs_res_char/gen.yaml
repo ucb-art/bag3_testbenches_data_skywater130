@@ -1,0 +1,20 @@
+impl_lib: RES_CHAR
+impl_cell: RES
+root_dir: gen_outputs/res_char
+dut_class: xbase.layout.array.top.ArrayBaseWrapper
+
+params:
+  cls_name: xbase.layout.res.char.ResChar
+  params:
+    pinfo:
+      unit_specs:
+        params: {w: 600, l: 800, res_type: high_res}
+      # Note: wire_specs is available in BAG3.0 for arrays, but it does not work like tile specs
+      # The layout generator has a work around
+      wire_specs: {}
+      tr_widths:
+        sup: {3: 2}
+      tr_spaces: {}
+      top_layer: 3
+      nx: 1
+      ny: 1

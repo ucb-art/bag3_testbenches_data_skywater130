@@ -1,4 +1,4 @@
-gen_specs_file: data/bag3_testbenches/specs_res_char/gen_sch.yaml
+gen_specs_file: data/bag3_testbenches/specs_res_char/gen.yaml
 meas_class: bag3_testbenches.measurement.char.CharSPMeas
 meas_name: char
 
